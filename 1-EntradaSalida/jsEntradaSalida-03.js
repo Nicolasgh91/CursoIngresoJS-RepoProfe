@@ -5,13 +5,16 @@ Debemos lograr tomar un dato por 'ID'
 y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
-	var nombreIngresado;
+	// declaro variable
+	let nombreIngresado;
 
+	// Capturo elemento del html y lo almaceno en variable
 	nombreIngresado= document.getElementById("txtIdNombre").value;
 
-	alert(nombreIngresado);
+	alert("Su nombre es: " + nombreIngresado);
 
-	document.getElementById("txtIdNombre").value = "";
+	// Vuelvo a dejar vacio el input
+	//document.getElementById("txtIdNombre").value = "";
 }
 
 
