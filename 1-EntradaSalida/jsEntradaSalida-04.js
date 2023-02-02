@@ -7,7 +7,6 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 function mostrar()
 {
 	
-
 	let nombre = prompt("Ingrese su nombre: ");
 
 	//selecciono el elemento txtIdNombre del HTML y le asigno como valor el nombre

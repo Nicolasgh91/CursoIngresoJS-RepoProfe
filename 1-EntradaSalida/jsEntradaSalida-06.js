@@ -10,6 +10,7 @@ function sumar()
 	// Orden secuencial, preparo dos espacios para almacenar la información
 	let numeroUno;
 	let numeroDos;
+	let resultado;
 
 	// Recibo los datos del usuario y los guardo en los correspondientes espacios
 	// que separé para dichos datos
@@ -18,7 +19,7 @@ function sumar()
 	
 	// recibí dos strings, entonces antes de sumarlas, necesito pasarlas a 
 	// numero, una vez realizada la conversión a número puedo hacer la suma
-	let resultado = numeroUno + numeroDos;
+	resultado = numeroUno + numeroDos;
 	
 	// es importante convierta el texto a número primero (antes que la suma)
 	// ya que si sumo primero, estaré sumando dos cadenas de texto y esas
