@@ -1,7 +1,18 @@
+// Alumno: Nicolás Gabriel Hruszczak 
+
+/*	Consigna:
+
+	al seleccionar un mes informar. 
+	si estamos en Invierno: "Abrigate que hace frio." 
+	si aún no llego el Invierno: "Falta para el invierno." 
+	si ya paso el Invierno: "Ya pasamos el frio, ahora calor!!!." 
+	ACLARAcIÓN: tomamos a Julio y Agosto como los meses de Invierno.
+*/
+
 function mostrar()
 {
 	//tomo el mes
-	var mes =txtIdMes.value;
+	let mes = txtIdMes.value;
 
 	// variable que voy a evaluar, no es una condición
 	switch (mes) {
@@ -42,5 +53,4 @@ function mostrar()
 			alert("Está terminando la primavera y arranca el veranoo")
 			break;
 	}
-
 }//FIN DE LA FUNCIÓN

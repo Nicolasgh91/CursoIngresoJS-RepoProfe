@@ -1,7 +1,18 @@
+// Alumno: Nicolás Gabriel Hruszczak 
+
+/*	Consigna:
+
+	al seleccionar un mes informar. 
+	si tiene 28 días. 
+	si tiene 30 días. 
+	si tiene 31 días.
+*/
+
 function mostrar()
 {
 	//tomo el mes
-	let mes =txtIdMes.value;
+	let mes;
+	mes = txtIdMes.value;
 	
 	switch (mes) {
 		case "Febrero":
@@ -19,8 +30,4 @@ function mostrar()
 			alert("Tiene 31 dias")
 			break;
 	}
-	
-
-
-
 }//FIN DE LA FUNCIÓN

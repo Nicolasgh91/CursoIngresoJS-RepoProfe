@@ -1,7 +1,16 @@
+// Alumno: Nicolás Gabriel Hruszczak 
+
+/*	Consigna:
+
+	Al ingresar una hora, informar: 
+	si está entre las 7 y las 11 : "Es de mañana.".
+*/
+
 function mostrar()
 {
 	//tomo la hora
-	var horaDelDia =parseInt(txtIdHora.value);
+	let horaDelDia;
+	horaDelDia = parseInt(txtIdHora.value);
 	
 	switch (horaDelDia) {
 		case 7:
@@ -16,9 +25,4 @@ function mostrar()
 			alert("Es de tarde o noche.")
 			break;
 	}
-	
-	
-
-
-
 }//FIN DE LA FUNCIÓN
