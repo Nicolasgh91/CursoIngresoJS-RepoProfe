@@ -1,3 +1,14 @@
+/*
+	Alumno: Nicolás Gabriel Hruszczak
+	
+    Consigna:
+
+	Adivina la secuencia 
+	ahi una secuencia oculta que debes adivinar 
+	Solo tienes tres intentos
+
+*/
+
 var secuenciaSecretaDeColores;
 var secuenciaIngresada=new Array("vacio","vacio","vacio","vacio");
 var contadorDeIntentos=0;

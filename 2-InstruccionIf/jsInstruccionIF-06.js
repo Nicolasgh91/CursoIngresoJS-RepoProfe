@@ -20,6 +20,4 @@ function mostrar()
 	} else{
 		alert("Por favor introduzca un valor nuevamente.");
 	}
-
-
 }//FIN DE LA FUNCIÓN
