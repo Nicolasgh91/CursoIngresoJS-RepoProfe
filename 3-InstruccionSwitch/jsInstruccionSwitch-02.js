@@ -13,44 +13,24 @@ function mostrar()
 {
 	//tomo el mes
 	let mes = txtIdMes.value;
+	let mensaje;
 
 	// variable que voy a evaluar, no es una condición
-	switch (mes) {
-		case "Enero":
-			alert("Hace calor");
-			break;
-		case "Febrero":
-			alert("Hace calor");
-			break;
-		case "Marzo":
-			alert("Comienza el otoño");
-			break;
-		case "Abril":
-			alert("El mejor mes del año, otoño");
-			break;
-		case "Mayo":
-			alert("Terminando el otoño");
-			break;
-		case "Junio":
-			alert("Abrigate que hace frio.");
-			break;
+	switch (mes) 
+	{
 		case "Julio":
-			alert("Abrigate que hace frio.");
-			break;
 		case "Agosto":
-			alert("Abrigate que hace frio.");
+			mensaje = "Abrigate que hace frio.";
 			break;
 		case "Septiembre":
-			alert("Empieza la Primavera");
-			break;
 		case "Octubre":
-			alert("Primavera");
-			break;
 		case "Noviembre":
-			alert("Primavera");
-			break;		
 		case "Diciembre":
-			alert("Está terminando la primavera y arranca el veranoo")
+			alert("Ya pasamos el frio, ahora el calor!!!");
+			break;
+		default:
+			mensaje = "Falta para el invierno";
 			break;
 	}
+	alert(mensaje);
 }//FIN DE LA FUNCIÓN
